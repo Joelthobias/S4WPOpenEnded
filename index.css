@@ -1,0 +1,32 @@
+    body {
+        padding: 20px 0;
+    }
+
+    .nav-link,
+    .navbar-brand {
+        color: black ;
+    }
+    .active{
+        font-weight: bold;
+    }
+    .login-container-fluid {
+        /* max-width: 600px; */
+        margin: 80px 20px 0;
+        padding: 20px;
+    }
+
+    @media(max:768px) {
+        .login-container-fluid {
+            /* max-width: 600px; */
+            margin: 80px 10px 0;
+            padding: 20px;
+        }
+    }
+
+    .l-3 {
+        width: 30%;
+    }
+    .navbar-toggler{
+        border-color:white !important;
+        box-shadow: none !important;
+    }
